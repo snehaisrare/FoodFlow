@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "rest_001",
+    "restaurant_name": "Spice Garden Bistro",
+    "restaurant_photo": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "info": "A fusion restaurant specializing in authentic Indian and Chinese cuisines with a modern twist. Located in the heart of the city, we offer a warm ambiance perfect for family dinners and romantic dates.",
+    "no_of_ratings": 847,
+    "avg_ratings": 4.3,
+    "reviews": [
+      {
+        "reviewer_name": "Sarah Johnson",
+        "rating": 5,
+        "comment": "Amazing food quality and exceptional service! The Chicken Tikka Masala was absolutely divine. Will definitely come back!"
+      },
+      {
+        "reviewer_name": "Michael Chen",
+        "rating": 4,
+        "comment": "Great fusion of flavors. The Szechuan Chicken was perfectly spiced. Slightly expensive but worth the quality."
+      },
+      {
+        "reviewer_name": "Priya Sharma",
+        "rating": 4,
+        "comment": "Loved the authentic Indian taste with a modern presentation. The service was quick and staff was very friendly."
+      }
+    ],
+    "menu": {
+      "starter": [
+        {
+          "id": "starter_001",
+          "name": "Chicken Lollipop",
+          "price": 280,
+          "avg_rating": 4.2,
+          "no_of_ratings": 156,
+          "description": "Tender chicken winglets marinated in Indo-Chinese spices, deep-fried to perfection and served with sweet chili sauce",
+          "photo": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_002",
+          "name": "Paneer Tikka",
+          "price": 240,
+          "avg_rating": 4.5,
+          "no_of_ratings": 203,
+          "description": "Cubes of cottage cheese marinated in yogurt and spices, grilled in tandoor and served with mint chutney",
+          "photo": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_003",
+          "name": "Crispy Honey Chilli Potatoes",
+          "price": 180,
+          "avg_rating": 4.0,
+          "no_of_ratings": 89,
+          "description": "Golden fried potato cubes tossed in sweet and spicy honey chilli sauce with bell peppers and onions",
+          "photo": "https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "chinese": [
+        {
+          "id": "chinese_001",
+          "name": "Szechuan Chicken",
+          "price": 320,
+          "avg_rating": 4.4,
+          "no_of_ratings": 234,
+          "description": "Tender chicken pieces stir-fried with authentic Szechuan peppercorns, garlic, and vegetables in a spicy sauce",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_002",
+          "name": "Hakka Noodles",
+          "price": 260,
+          "avg_rating": 4.1,
+          "no_of_ratings": 167,
+          "description": "Stir-fried noodles with mixed vegetables, soy sauce, and aromatic spices in traditional Hakka style",
+          "photo": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_003",
+          "name": "Manchurian Fried Rice",
+          "price": 280,
+          "avg_rating": 4.3,
+          "no_of_ratings": 145,
+          "description": "Fragrant basmati rice wok-tossed with vegetable manchurian balls, spring onions, and Chinese sauces",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "indian": [
+        {
+          "id": "indian_001",
+          "name": "Butter Chicken",
+          "price": 340,
+          "avg_rating": 4.6,
+          "no_of_ratings": 312,
+          "description": "Succulent chicken pieces in rich tomato and cashew gravy with cream, butter, and aromatic spices",
+          "photo": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_002",
+          "name": "Dal Makhani",
+          "price": 220,
+          "avg_rating": 4.2,
+          "no_of_ratings": 198,
+          "description": "Slow-cooked black lentils and kidney beans in creamy tomato gravy with butter and cream",
+          "photo": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_003",
+          "name": "Biryani (Chicken)",
+          "price": 380,
+          "avg_rating": 4.5,
+          "no_of_ratings": 278,
+          "description": "Aromatic basmati rice layered with marinated chicken, saffron, and spices, slow-cooked to perfection",
+          "photo": "https://images.unsplash.com/photo-1563379091339-03246963d7d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "beverages": [
+        {
+          "id": "beverage_001",
+          "name": "Mango Lassi",
+          "price": 120,
+          "avg_rating": 4.3,
+          "no_of_ratings": 89,
+          "description": "Traditional yogurt-based drink blended with fresh mango pulp, sugar, and a hint of cardamom",
+          "photo": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_002",
+          "name": "Masala Chai",
+          "price": 60,
+          "avg_rating": 4.1,
+          "no_of_ratings": 134,
+          "description": "Aromatic black tea brewed with milk, sugar, and a blend of traditional Indian spices",
+          "photo": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_003",
+          "name": "Fresh Lime Soda",
+          "price": 80,
+          "avg_rating": 3.9,
+          "no_of_ratings": 76,
+          "description": "Refreshing drink made with fresh lime juice, soda water, and a pinch of salt and sugar",
+          "photo": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rest_002",
+    "restaurant_name": "Dragon Palace",
+    "restaurant_photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "info": "Authentic Chinese restaurant bringing traditional flavors from Beijing and Shanghai. Known for our handmade dumplings and Peking duck.",
+    "no_of_ratings": 623,
+    "avg_ratings": 4.1,
+    "reviews": [
+      {
+        "reviewer_name": "David Wong",
+        "rating": 5,
+        "comment": "Best Chinese food in the city! The Peking duck was authentic and the service was excellent."
+      },
+      {
+        "reviewer_name": "Emily Rodriguez",
+        "rating": 4,
+        "comment": "Great atmosphere and delicious food. The dumplings were perfectly steamed and very flavorful."
+      },
+      {
+        "reviewer_name": "Raj Patel",
+        "rating": 3,
+        "comment": "Good food but a bit overpriced. The portions could be larger for the price point."
+      }
+    ],
+    "menu": {
+      "starter": [
+        {
+          "id": "starter_004",
+          "name": "Chicken Momos",
+          "price": 180,
+          "avg_rating": 4.4,
+          "no_of_ratings": 234,
+          "description": "Steamed dumplings filled with seasoned chicken mince, served with spicy tomato chutney",
+          "photo": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_005",
+          "name": "Veg Spring Rolls",
+          "price": 160,
+          "avg_rating": 4.0,
+          "no_of_ratings": 156,
+          "description": "Crispy golden rolls filled with fresh vegetables and served with sweet and sour sauce",
+          "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_006",
+          "name": "Chilli Chicken",
+          "price": 260,
+          "avg_rating": 4.3,
+          "no_of_ratings": 189,
+          "description": "Battered chicken pieces tossed in spicy chilli sauce with bell peppers and onions",
+          "photo": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "chinese": [
+        {
+          "id": "chinese_004",
+          "name": "Sweet and Sour Pork",
+          "price": 340,
+          "avg_rating": 4.2,
+          "no_of_ratings": 167,
+          "description": "Tender pork pieces in tangy sweet and sour sauce with pineapple and bell peppers",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_005",
+          "name": "Kung Pao Chicken",
+          "price": 320,
+          "avg_rating": 4.5,
+          "no_of_ratings": 198,
+          "description": "Diced chicken with peanuts, vegetables, and chili peppers in savory sauce",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_006",
+          "name": "Chow Mein",
+          "price": 240,
+          "avg_rating": 4.1,
+          "no_of_ratings": 143,
+          "description": "Stir-fried noodles with vegetables and choice of protein in traditional Chinese style",
+          "photo": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "indian": [
+        {
+          "id": "indian_004",
+          "name": "Tandoori Chicken",
+          "price": 360,
+          "avg_rating": 4.4,
+          "no_of_ratings": 223,
+          "description": "Marinated chicken roasted in tandoor oven with yogurt and aromatic spices",
+          "photo": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_005",
+          "name": "Palak Paneer",
+          "price": 240,
+          "avg_rating": 4.0,
+          "no_of_ratings": 134,
+          "description": "Cottage cheese cubes in creamy spinach gravy with garlic and ginger",
+          "photo": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_006",
+          "name": "Mutton Biryani",
+          "price": 420,
+          "avg_rating": 4.6,
+          "no_of_ratings": 256,
+          "description": "Aromatic basmati rice layered with tender mutton pieces and traditional spices",
+          "photo": "https://images.unsplash.com/photo-1563379091339-03246963d7d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "beverages": [
+        {
+          "id": "beverage_004",
+          "name": "Chinese Green Tea",
+          "price": 80,
+          "avg_rating": 4.2,
+          "no_of_ratings": 76,
+          "description": "Traditional Chinese green tea with delicate flavor and natural antioxidants",
+          "photo": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_005",
+          "name": "Sweet Lassi",
+          "price": 100,
+          "avg_rating": 4.0,
+          "no_of_ratings": 89,
+          "description": "Creamy yogurt drink sweetened with sugar and flavored with cardamom",
+          "photo": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_006",
+          "name": "Fresh Orange Juice",
+          "price": 90,
+          "avg_rating": 3.8,
+          "no_of_ratings": 67,
+          "description": "Freshly squeezed orange juice packed with vitamin C and natural sweetness",
+          "photo": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rest_003",
+    "restaurant_name": "Maharaja's Kitchen",
+    "restaurant_photo": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "info": "Royal Indian cuisine restaurant serving traditional recipes passed down through generations. Experience the taste of authentic Mughlai and Punjabi dishes.",
+    "no_of_ratings": 1032,
+    "avg_ratings": 4.5,
+    "reviews": [
+      {
+        "reviewer_name": "Anita Gupta",
+        "rating": 5,
+        "comment": "Outstanding food quality! The Dal Makhani reminded me of my grandmother's cooking. Highly recommended!"
+      },
+      {
+        "reviewer_name": "James Wilson",
+        "rating": 4,
+        "comment": "Excellent Indian cuisine with great variety. The naan bread was perfectly baked and the curries were flavorful."
+      },
+      {
+        "reviewer_name": "Kavya Menon",
+        "rating": 5,
+        "comment": "Best Indian restaurant in town! The biryani was aromatic and the service was exceptional."
+      }
+    ],
+    "menu": {
+      "starter": [
+        {
+          "id": "starter_007",
+          "name": "Samosa Chaat",
+          "price": 150,
+          "avg_rating": 4.3,
+          "no_of_ratings": 201,
+          "description": "Crispy samosas topped with yogurt, chutneys, and fresh herbs in traditional chaat style",
+          "photo": "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_008",
+          "name": "Seekh Kebab",
+          "price": 280,
+          "avg_rating": 4.6,
+          "no_of_ratings": 289,
+          "description": "Minced mutton kebabs grilled on skewers with aromatic spices and served with mint chutney",
+          "photo": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_009",
+          "name": "Aloo Tikki",
+          "price": 120,
+          "avg_rating": 4.1,
+          "no_of_ratings": 156,
+          "description": "Crispy potato patties served with tamarind and mint chutneys",
+          "photo": "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "chinese": [
+        {
+          "id": "chinese_007",
+          "name": "Indo-Chinese Gravy",
+          "price": 280,
+          "avg_rating": 4.0,
+          "no_of_ratings": 123,
+          "description": "Fusion dish with vegetables in spicy Indo-Chinese sauce served with rice",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_008",
+          "name": "Gobi Manchurian",
+          "price": 220,
+          "avg_rating": 4.2,
+          "no_of_ratings": 167,
+          "description": "Crispy cauliflower florets in tangy and spicy Manchurian sauce",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_009",
+          "name": "Veg Fried Rice",
+          "price": 200,
+          "avg_rating": 3.9,
+          "no_of_ratings": 134,
+          "description": "Fragrant rice stir-fried with mixed vegetables and soy sauce",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "indian": [
+        {
+          "id": "indian_007",
+          "name": "Rogan Josh",
+          "price": 380,
+          "avg_rating": 4.7,
+          "no_of_ratings": 234,
+          "description": "Tender lamb cooked in aromatic Kashmiri spices with rich tomato and onion gravy",
+          "photo": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_008",
+          "name": "Chole Bhature",
+          "price": 200,
+          "avg_rating": 4.4,
+          "no_of_ratings": 198,
+          "description": "Spicy chickpea curry served with fluffy deep-fried bread",
+          "photo": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_009",
+          "name": "Hyderabadi Biryani",
+          "price": 400,
+          "avg_rating": 4.8,
+          "no_of_ratings": 345,
+          "description": "Traditional Hyderabadi style biryani with tender meat and aromatic basmati rice",
+          "photo": "https://images.unsplash.com/photo-1563379091339-03246963d7d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "beverages": [
+        {
+          "id": "beverage_007",
+          "name": "Kulfi Shake",
+          "price": 140,
+          "avg_rating": 4.5,
+          "no_of_ratings": 112,
+          "description": "Traditional Indian ice cream blended into a creamy shake with cardamom and nuts",
+          "photo": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_008",
+          "name": "Thandai",
+          "price": 120,
+          "avg_rating": 4.2,
+          "no_of_ratings": 89,
+          "description": "Traditional Indian drink made with milk, almonds, and aromatic spices",
+          "photo": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_009",
+          "name": "Nimbu Paani",
+          "price": 60,
+          "avg_rating": 3.9,
+          "no_of_ratings": 78,
+          "description": "Fresh lemon water with mint and black salt, perfect for hot weather",
+          "photo": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rest_004",
+    "restaurant_name": "Bamboo Garden",
+    "restaurant_photo": "https://images.unsplash.com/photo-1559329007-40df8a9345d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "info": "Pan-Asian restaurant offering a diverse menu of Chinese, Thai, and Japanese cuisines. Known for our fresh sushi and authentic wok dishes.",
+    "no_of_ratings": 567,
+    "avg_ratings": 4.2,
+    "reviews": [
+      {
+        "reviewer_name": "Lisa Chang",
+        "rating": 4,
+        "comment": "Great variety of Asian dishes. The pad thai was authentic and the sushi was fresh. Good ambiance too."
+      },
+      {
+        "reviewer_name": "Arjun Reddy",
+        "rating": 5,
+        "comment": "Excellent pan-Asian cuisine! The Thai curry was perfectly spiced and the service was quick."
+      },
+      {
+        "reviewer_name": "Maria Santos",
+        "rating": 4,
+        "comment": "Nice restaurant with good food variety. The Chinese dishes were well-prepared and flavorful."
+      }
+    ],
+    "menu": {
+      "starter": [
+        {
+          "id": "starter_010",
+          "name": "Chicken Satay",
+          "price": 220,
+          "avg_rating": 4.3,
+          "no_of_ratings": 145,
+          "description": "Grilled chicken skewers marinated in Thai spices, served with peanut sauce",
+          "photo": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_011",
+          "name": "Prawn Tempura",
+          "price": 300,
+          "avg_rating": 4.4,
+          "no_of_ratings": 167,
+          "description": "Crispy battered prawns served with tempura dipping sauce",
+          "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_012",
+          "name": "Chicken Dim Sum",
+          "price": 200,
+          "avg_rating": 4.1,
+          "no_of_ratings": 123,
+          "description": "Steamed chicken dumplings with ginger and soy dipping sauce",
+          "photo": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "chinese": [
+        {
+          "id": "chinese_010",
+          "name": "General Tso's Chicken",
+          "price": 320,
+          "avg_rating": 4.3,
+          "no_of_ratings": 189,
+          "description": "Crispy chicken in sweet and slightly spicy sauce with sesame seeds",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_011",
+          "name": "Beef Black Bean",
+          "price": 360,
+          "avg_rating": 4.2,
+          "no_of_ratings": 156,
+          "description": "Tender beef stir-fried with bell peppers and onions in black bean sauce",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_012",
+          "name": "Singapore Noodles",
+          "price": 280,
+          "avg_rating": 4.0,
+          "no_of_ratings": 134,
+          "description": "Curry-flavored rice noodles with shrimp, char siu pork, and vegetables",
+          "photo": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "indian": [
+        {
+          "id": "indian_010",
+          "name": "Chicken Curry",
+          "price": 300,
+          "avg_rating": 4.1,
+          "no_of_ratings": 178,
+          "description": "Traditional Indian chicken curry with onions, tomatoes, and aromatic spices",
+          "photo": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_011",
+          "name": "Paneer Makhani",
+          "price": 260,
+          "avg_rating": 4.3,
+          "no_of_ratings": 145,
+          "description": "Cottage cheese in rich tomato and cream sauce with butter",
+          "photo": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_012",
+          "name": "Vegetable Biryani",
+          "price": 280,
+          "avg_rating": 4.0,
+          "no_of_ratings": 167,
+          "description": "Fragrant basmati rice layered with mixed vegetables and traditional spices",
+          "photo": "https://images.unsplash.com/photo-1563379091339-03246963d7d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "beverages": [
+        {
+          "id": "beverage_010",
+          "name": "Thai Iced Tea",
+          "price": 110,
+          "avg_rating": 4.2,
+          "no_of_ratings": 89,
+          "description": "Traditional Thai tea with condensed milk and served over ice",
+          "photo": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_011",
+          "name": "Coconut Water",
+          "price": 80,
+          "avg_rating": 3.8,
+          "no_of_ratings": 67,
+          "description": "Fresh coconut water served chilled with natural electrolytes",
+          "photo": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_012",
+          "name": "Jasmine Tea",
+          "price": 70,
+          "avg_rating": 4.1,
+          "no_of_ratings": 56,
+          "description": "Fragrant jasmine-scented green tea with delicate floral notes",
+          "photo": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rest_005",
+    "restaurant_name": "Curry Express",
+    "restaurant_photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "info": "Fast-casual Indian restaurant serving quick, authentic curries and biryanis. Perfect for office lunch and quick family meals.",
+    "no_of_ratings": 445,
+    "avg_ratings": 3.9,
+    "reviews": [
+      {
+        "reviewer_name": "Rohit Sharma",
+        "rating": 4,
+        "comment": "Good food for the price. Quick service and decent portions. The chicken biryani was tasty."
+      },
+      {
+        "reviewer_name": "Jennifer Lee",
+        "rating": 3,
+        "comment": "Average food quality. It's okay for a quick meal but nothing exceptional. Service could be improved."
+      },
+      {
+        "reviewer_name": "Amit Kumar",
+        "rating": 4,
+        "comment": "Great value for money. The dal curry was homestyle and the naan was fresh. Good for regular dining."
+      }
+    ],
+    "menu": {
+      "starter": [
+        {
+          "id": "starter_013",
+          "name": "Veg Pakora",
+          "price": 100,
+          "avg_rating": 3.8,
+          "no_of_ratings": 134,
+          "description": "Mixed vegetable fritters served with mint and tamarind chutneys",
+          "photo": "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_014",
+          "name": "Chicken 65",
+          "price": 180,
+          "avg_rating": 4.0,
+          "no_of_ratings": 167,
+          "description": "Spicy deep-fried chicken chunks with curry leaves and green chilies",
+          "photo": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_015",
+          "name": "Papad",
+          "price": 40,
+          "avg_rating": 3.5,
+          "no_of_ratings": 89,
+          "description": "Crispy lentil wafers served with onion and chutneys",
+          "photo": "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "chinese": [
+        {
+          "id": "chinese_013",
+          "name": "Chicken Manchurian",
+          "price": 220,
+          "avg_rating": 3.9,
+          "no_of_ratings": 156,
+          "description": "Battered chicken in Indo-Chinese sauce with onions and bell peppers",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_014",
+          "name": "Egg Fried Rice",
+          "price": 160,
+          "avg_rating": 3.7,
+          "no_of_ratings": 123,
+          "description": "Stir-fried rice with scrambled eggs and vegetables",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_015",
+          "name": "Veg Noodles",
+          "price": 140,
+          "avg_rating": 3.6,
+          "no_of_ratings": 98,
+          "description": "Stir-fried noodles with mixed vegetables and soy sauce",
+          "photo": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "indian": [
+        {
+          "id": "indian_013",
+          "name": "Chicken Curry",
+          "price": 200,
+          "avg_rating": 4.1,
+          "no_of_ratings": 234,
+          "description": "Home-style chicken curry with onions, tomatoes, and traditional spices",
+          "photo": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_014",
+          "name": "Dal Tadka",
+          "price": 120,
+          "avg_rating": 3.9,
+          "no_of_ratings": 189,
+          "description": "Yellow lentils tempered with cumin, garlic, and green chilies",
+          "photo": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_015",
+          "name": "Chicken Biryani",
+          "price": 220,
+          "avg_rating": 4.0,
+          "no_of_ratings": 267,
+          "description": "Fragrant rice with chicken pieces and aromatic spices",
+          "photo": "https://images.unsplash.com/photo-1563379091339-03246963d7d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "beverages": [
+        {
+          "id": "beverage_013",
+          "name": "Buttermilk",
+          "price": 50,
+          "avg_rating": 3.8,
+          "no_of_ratings": 78,
+          "description": "Spiced yogurt drink with curry leaves and ginger",
+          "photo": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_014",
+          "name": "Lemon Tea",
+          "price": 40,
+          "avg_rating": 3.6,
+          "no_of_ratings": 56,
+          "description": "Hot tea with fresh lemon juice and honey",
+          "photo": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_015",
+          "name": "Cold Coffee",
+          "price": 80,
+          "avg_rating": 3.7,
+          "no_of_ratings": 67,
+          "description": "Chilled coffee with milk and sugar, topped with whipped cream",
+          "photo": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rest_006",
+    "restaurant_name": "Golden Wok",
+    "restaurant_photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "info": "Authentic Chinese restaurant specializing in Cantonese cuisine. Known for our dim sum, roasted duck, and traditional wok dishes.",
+    "no_of_ratings": 789,
+    "avg_ratings": 4.4,
+    "reviews": [
+      {
+        "reviewer_name": "Kevin Zhang",
+        "rating": 5,
+        "comment": "Excellent authentic Chinese food! The roasted duck was perfectly cooked and the dim sum was outstanding."
+      },
+      {
+        "reviewer_name": "Neha Agarwal",
+        "rating": 4,
+        "comment": "Great Chinese restaurant with authentic flavors. The service was good and the portions were generous."
+      },
+      {
+        "reviewer_name": "Mark Thompson",
+        "rating": 4,
+        "comment": "Really good Chinese cuisine. The hot pot was amazing and the staff was knowledgeable about the menu."
+      }
+    ],
+    "menu": {
+      "starter": [
+        {
+          "id": "starter_016",
+          "name": "Har Gow",
+          "price": 250,
+          "avg_rating": 4.5,
+          "no_of_ratings": 178,
+          "description": "Traditional steamed shrimp dumplings with translucent wrapper",
+          "photo": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_017",
+          "name": "Crispy Duck Pancakes",
+          "price": 320,
+          "avg_rating": 4.6,
+          "no_of_ratings": 234,
+          "description": "Roasted duck with pancakes, spring onions, and hoisin sauce",
+          "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_018",
+          "name": "Salt and Pepper Squid",
+          "price": 280,
+          "avg_rating": 4.3,
+          "no_of_ratings": 156,
+          "description": "Crispy squid rings with salt, pepper, and chili seasoning",
+          "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "chinese": [
+        {
+          "id": "chinese_016",
+          "name": "Peking Duck",
+          "price": 450,
+          "avg_rating": 4.7,
+          "no_of_ratings": 298,
+          "description": "Traditional roasted duck with crispy skin, served with pancakes and sauce",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_017",
+          "name": "Mapo Tofu",
+          "price": 220,
+          "avg_rating": 4.2,
+          "no_of_ratings": 167,
+          "description": "Silky tofu in spicy Sichuan sauce with minced pork",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_018",
+          "name": "Cantonese Fried Rice",
+          "price": 200,
+          "avg_rating": 4.1,
+          "no_of_ratings": 189,
+          "description": "Traditional fried rice with char siu pork, shrimp, and vegetables",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "indian": [
+        {
+          "id": "indian_016",
+          "name": "Chicken Tikka Masala",
+          "price": 320,
+          "avg_rating": 4.3,
+          "no_of_ratings": 234,
+          "description": "Grilled chicken tikka in creamy tomato and onion sauce",
+          "photo": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_017",
+          "name": "Saag Paneer",
+          "price": 240,
+          "avg_rating": 4.0,
+          "no_of_ratings": 156,
+          "description": "Cottage cheese in spiced spinach gravy with garlic and ginger",
+          "photo": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_018",
+          "name": "Lamb Biryani",
+          "price": 380,
+          "avg_rating": 4.4,
+          "no_of_ratings": 198,
+          "description": "Aromatic basmati rice with tender lamb and traditional spices",
+          "photo": "https://images.unsplash.com/photo-1563379091339-03246963d7d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "beverages": [
+        {
+          "id": "beverage_016",
+          "name": "Oolong Tea",
+          "price": 90,
+          "avg_rating": 4.3,
+          "no_of_ratings": 89,
+          "description": "Traditional Chinese tea with complex flavor and natural sweetness",
+          "photo": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_017",
+          "name": "Rose Milk",
+          "price": 100,
+          "avg_rating": 4.0,
+          "no_of_ratings": 67,
+          "description": "Chilled milk flavored with rose syrup and topped with nuts",
+          "photo": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_018",
+          "name": "Lychee Juice",
+          "price": 110,
+          "avg_rating": 4.1,
+          "no_of_ratings": 78,
+          "description": "Fresh lychee juice with natural sweetness and tropical flavor",
+          "photo": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rest_007",
+    "restaurant_name": "Spice Route",
+    "restaurant_photo": "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "info": "Modern Indian restaurant with a focus on regional specialties from different states. Elegant dining experience with contemporary presentation.",
+    "no_of_ratings": 934,
+    "avg_ratings": 4.6,
+    "reviews": [
+      {
+        "reviewer_name": "Deepika Reddy",
+        "rating": 5,
+        "comment": "Absolutely amazing! The food presentation was beautiful and the flavors were authentic. Best Indian restaurant experience!"
+      },
+      {
+        "reviewer_name": "Robert Johnson",
+        "rating": 4,
+        "comment": "Great ambiance and excellent food quality. The staff was very knowledgeable about the regional dishes."
+      },
+      {
+        "reviewer_name": "Sanjay Gupta",
+        "rating": 5,
+        "comment": "Outstanding regional Indian cuisine! The Kerala fish curry was exceptional and the service was impeccable."
+      }
+    ],
+    "menu": {
+      "starter": [
+        {
+          "id": "starter_019",
+          "name": "Goan Fish Cutlet",
+          "price": 260,
+          "avg_rating": 4.4,
+          "no_of_ratings": 189,
+          "description": "Spiced fish cutlets from Goa, served with tangy tamarind chutney",
+          "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_020",
+          "name": "Rajasthani Kachori",
+          "price": 140,
+          "avg_rating": 4.2,
+          "no_of_ratings": 156,
+          "description": "Deep-fried pastry stuffed with spiced lentils, served with chutneys",
+          "photo": "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "starter_021",
+          "name": "Koliwada Prawns",
+          "price": 320,
+          "avg_rating": 4.5,
+          "no_of_ratings": 234,
+          "description": "Mumbai-style battered and fried prawns with spicy coating",
+          "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "chinese": [
+        {
+          "id": "chinese_019",
+          "name": "Chilli Garlic Noodles",
+          "price": 240,
+          "avg_rating": 4.1,
+          "no_of_ratings": 123,
+          "description": "Indo-Chinese noodles with garlic, chili, and mixed vegetables",
+          "photo": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_020",
+          "name": "Paneer Chilli",
+          "price": 220,
+          "avg_rating": 4.0,
+          "no_of_ratings": 167,
+          "description": "Cottage cheese cubes in spicy Indo-Chinese sauce with bell peppers",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "chinese_021",
+          "name": "Schezwan Fried Rice",
+          "price": 200,
+          "avg_rating": 3.9,
+          "no_of_ratings": 134,
+          "description": "Spicy fried rice with Schezwan sauce and mixed vegetables",
+          "photo": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "indian": [
+        {
+          "id": "indian_019",
+          "name": "Kerala Fish Curry",
+          "price": 380,
+          "avg_rating": 4.7,
+          "no_of_ratings": 298,
+          "description": "Traditional Kerala fish curry with coconut milk and curry leaves",
+          "photo": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_020",
+          "name": "Rajasthani Dal Baati",
+          "price": 280,
+          "avg_rating": 4.3,
+          "no_of_ratings": 178,
+          "description": "Traditional Rajasthani lentil curry with baked wheat balls",
+          "photo": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "indian_021",
+          "name": "Lucknowi Biryani",
+          "price": 420,
+          "avg_rating": 4.6,
+          "no_of_ratings": 267,
+          "description": "Aromatic Awadhi-style biryani with tender meat and saffron",
+          "photo": "https://images.unsplash.com/photo-1563379091339-03246963d7d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ],
+      "beverages": [
+        {
+          "id": "beverage_019",
+          "name": "Kokum Sharbat",
+          "price": 90,
+          "avg_rating": 4.2,
+          "no_of_ratings": 89,
+          "description": "Refreshing Goan drink made with kokum and served chilled",
+          "photo": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_020",
+          "name": "Kashmiri Kahwa",
+          "price": 100,
+          "avg_rating": 4.4,
+          "no_of_ratings": 112,
+          "description": "Traditional Kashmiri tea with saffron, cardamom, and almonds",
+          "photo": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        },
+        {
+          "id": "beverage_021",
+          "name": "Aam Panna",
+          "price": 80,
+          "avg_rating": 4.0,
+          "no_of_ratings": 67,
+          "description": "Traditional raw mango drink with mint and black salt",
+          "photo": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        }
+      ]
+    }
+  }
+]
